@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@700&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: black;
+}
+
+.hero_div {
+    width: 100%;
+    display: flex;
+}
+
+.hero_img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: black;
+}
+
+.invited {
+    color: #939597;
+    letter-spacing: 1px;
+}
+
+.heading {
+    letter-spacing: 2px;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.timming {
+    letter-spacing: 2px;
+    color: #d86156;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.details {
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.directions {
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.about_list {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+#eventbrite-widget-modal-trigger-444025661707 {
+    background-color: #8b5aec;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#eventbrite-widget-modal-trigger-444025661707:hover {
+    background-color: #4b2b8b;
+    transition: 0.5s ease;
+}
+
+.takeaways {
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-logo {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: 0.2s ease-out;
+}
+
+.social-logo:hover {
+    transform: scale(0.9);
+    transition: 0.2s ease-out;
+}
+
+.horizontal_line {
+    border-bottom: 0.2px solid gray;
+    margin: 50px;
+}
+
+@media (min-width:300px) and (max-width: 991px) {
+    .content {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: black;
+    }
+}
